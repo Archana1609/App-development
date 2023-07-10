@@ -1,0 +1,143 @@
+
+body {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: #141e30;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+.h1-title {
+  text-align: center;
+  color: purple;
+}
+.form {
+  width: 425px;
+}
+.a-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.a-group a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 24px;
+}
+.a-sign-in {
+  background-color:rgb(44, 3, 83);
+  color: #fff;
+}
+.a-sign-up {
+  background-color: rgb(50, 2, 50);
+  color: honeydew;
+}
+.form-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+.form-content input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+}
+.form-content input:focus {
+  box-shadow: inset 0px 0px 5px #121515;
+}
+#sign-in {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 20px;
+  background-color:rgb(13, 49, 73);
+  width: 100%;
+  position: absolute;
+  top:0;
+  color: white;
+  padding: 0 10px;
+  z-index: 1;
+} 
+#sign-in h1 {
+  margin-bottom: 0;
+}
+.frg-password {
+  text-decoration: none;
+  color:white;
+}
+.frg-password:hover {
+  color: wheat;
+}
+.btn-sign-in {
+  outline: none;
+  border: 3px solid #fff;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  background: none;
+  font-weight: 600;
+  color:white;
+  font-size: 24px;
+  cursor: pointer;
+}
+.btn-sign-in:hover {
+  background:black;
+  color:palevioletred;
+}
+#sign-up {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 20px;
+  background-color:rgb(13, 49, 73);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 0 10px;
+  opacity: 0;
+
+}
+#sign-up:target {
+  opacity: 1;
+  z-index: 2;
+}
+#sign-up h1 {
+  margin-bottom: 0;
+  color:white;
+}
+.btn-sign-up {
+  outline: none;
+  border: 3px solid #121515;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  background: none;
+  font-weight: 600;
+  color: whitesmoke;
+  font-size: 24px;
+  cursor: pointer;
+}
+.btn-sign-up:hover {
+  background:black;
+  color: palevioletred;
+}
+@media screen and (max-width: 425px) {
+  .form {
+      width: 100%;
+  }
+}
+
