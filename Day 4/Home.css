@@ -1,0 +1,113 @@
+/* Style for the brand name in the navbar */
+.navbar-brand {
+    font-size: 1.7rem;
+    font-style: italic;
+    margin-left: 25px;
+  }
+  
+  /*Style for the links in the navbar */
+  .navbar-nav .nav-link {
+    padding: 0.5rem 5rem;
+    margin-right: 45px;
+    position: relative;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  /*  Style for the navbar toggler in dark mode */
+  .navbar-dark .navbar-toggler {
+    border-color: rgba(230, 224, 224, 0.5);
+  }
+  
+  /*  Style for the navbar toggler icon in dark mode */
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #6b6b64;
+  }
+  
+  /*  Style for the navbar toggler icon */
+  .navbar-toggler .navbar-toggler-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /*  Style for the close icon in the navbar toggler */
+  .navbar-toggler .navbar-toggler-close-icon {
+    display: none;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  /* Style for the expanded navbar toggler icon */
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    transform: rotate(90deg);
+  }
+  
+  /*  Style for the displayed close icon when the navbar is expanded */
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-close-icon {
+    display: inline-block;
+  }
+  
+  /*  Style for the custom toggler button */
+  .custom-toggler {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the hover and active states of the nav links */
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #343d40;
+    border: 2px solid #f90;
+    cursor: pointer;
+  }
+  
+  /*  Style for the pseudo-element (::before) of the nav links in hover and active states */
+  .navbar-nav .nav-link:hover::before,
+  .navbar-nav .nav-link.active::before {
+    opacity: 1;
+  }
+  
+  /*  Style for the dropdown menu in the navbar */
+  .navbar-nav .dropdown-menu {
+    background-color: gray;
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  /* links within the dropdown menu */
+  .navbar-nav .dropdown-menu .nav-link {
+    position: relative;
+  }
+  
+  /* the hover state of the dropdown items in the navbar */
+  .navbar-nav .dropdown-menu .dropdown-item:hover {
+    color: #fff;
+    background-color: #343d40;
+    border: 2px solid #f90;
+    cursor: pointer;
+  }
+  
+  /*  Style for the user icon animation */
+  .user-icon .fa-user {
+    animation: bounce 1.5s;
+  }
+  
+  /* Keyframes animation for the user icon bounce effect */
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  }
+  
