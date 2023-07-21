@@ -1,0 +1,139 @@
+.navbar-nav .dropdown-menu {
+    background-color: rgb(4, 103, 130);
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  
+  .navbar-nav .dropdown-menu .nav-link {
+    position: relative;
+  }
+  
+ 
+  .navbar-nav .dropdown-menu .dropdown-item:hover {
+    color: #fff;
+    background-color: rgb(11, 155, 212);
+    border: 2px solid #f90;
+    cursor: pointer;
+  }
+  
+  
+  .user-icon .fa-user {
+    animation: bounce 1.5s;
+  }
+  
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  }
+  .sidepanel {
+		height: 250px; 
+		width: 0; 
+		position: fixed; 
+		z-index: 1; 
+		top: 0;
+		left: 0;
+		background-color:rgb(10, 194, 179); 
+		overflow-x: hidden; 
+		/* padding-top: 60px;  */
+		transition: 0.5s; 
+	  }
+	  
+	 
+	  .sidepanel a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+		
+	  }
+	  .sidepanel a:hover {
+		color: #f1f1f1;
+	  }
+      .sidepanel .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+    background-color: black;
+		margin-left: 20px;
+	  }
+	  
+	  /* Style the button that is used to open the sidepanel */
+	  .openbtn {
+		font-size: 20px;
+		cursor: pointer;
+		background-color: #2a9acb;
+		color: white;
+		padding: 10px 15px;
+		border: none;
+		margin-left:100px;
+		
+		
+	  }
+	  .but{
+		float: left;
+		margin-left: -40px;
+	  }
+      .openbtn:hover {
+		background-color: rgb(35, 194, 205);
+	  }		
+
+.from{
+	margin-top: 400px;
+	margin-left: 200px;
+	padding:14px 20px;
+	width:15%;
+	height: 20px;
+	border-radius: 20px;
+
+} 
+.to{
+	/* margin-bottom: 500px; */
+	margin-top: -65px;
+	margin-left: 600px;
+	padding:14px 20px;
+	width:15%;
+	height: 20px;
+	border-radius: 20px;
+}
+.dat{
+	margin-top: -70px;
+	margin-left: 1000px;
+	padding:14px 20px;
+	width:15%;
+	height: 20px;
+	border-radius: 20px;
+}
+.search{
+	
+	width: 20%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #c1814d;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 100px;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+button{
+  padding: 10%;
+  color: black;
+}
